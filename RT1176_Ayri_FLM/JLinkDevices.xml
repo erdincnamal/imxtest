@@ -1,0 +1,26 @@
+<Database>
+  <Device InheritFrom="MIMXRT1176xxx8_M7">
+    <ChipInfo Vendor="NXP" Name="MIMXRT1176B_MX25UW51245G_SDR_M7" Core="JLINK_CORE_CORTEX_M7"
+              WorkRAMAddr="0x20281000" WorkRAMSize="0x0003F000" />
+    <FlashBankInfo Name="MX25UW51245G Octal SDR" BaseAddr="0x30000000" AlwaysPresent="0">
+      <LoaderInfo Name="MX25UW51245G Octal SDR" MaxSize="0x04000000"
+                  Loader="RT1176B_MX25UW51245G_Octal_SDR.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    </FlashBankInfo>
+  </Device>
+  <Device InheritFrom="MIMXRT1176xxx8_M7">
+    <ChipInfo Vendor="NXP" Name="MIMXRT1176B_MX25UW51245G_DDR_M7" Core="JLINK_CORE_CORTEX_M7"
+              WorkRAMAddr="0x20281000" WorkRAMSize="0x0003F000" />
+    <FlashBankInfo Name="MX25UW51245G Octal DDR" BaseAddr="0x30000000" AlwaysPresent="0">
+      <LoaderInfo Name="MX25UW51245G Octal DDR" MaxSize="0x04000000"
+                  Loader="RT1176B_MX25UW51245G_Octal_DDR.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    </FlashBankInfo>
+  </Device>
+  <Device InheritFrom="MIMXRT1176xxx8_M7">
+    <ChipInfo Vendor="NXP" Name="MIMXRT1176_EVKB_W25Q512NWEIQ_QSPI_M7" Core="JLINK_CORE_CORTEX_M7"
+              WorkRAMAddr="0x20281000" WorkRAMSize="0x0003F000" />
+    <FlashBankInfo Name="W25Q512NWEIQ Quad SPI" BaseAddr="0x30000000" AlwaysPresent="0">
+      <LoaderInfo Name="W25Q512NWEIQ Quad SPI" MaxSize="0x04000000"
+                  Loader="RT1176_EVKB_W25Q512NWEIQ_QSPI.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    </FlashBankInfo>
+  </Device>
+</Database>
