@@ -1,0 +1,10 @@
+<Database>
+  <Device InheritFrom="MIMXRT1176xxx8_M7">
+    <ChipInfo Vendor="NXP" Name="MIMXRT1176B_MX25UW51245G_M7" Core="JLINK_CORE_CORTEX_M7"
+              WorkRAMAddr="0x20280000" WorkRAMSize="0x00040000" />
+    <FlashBankInfo Name="MX25UW51245G Octal DDR" BaseAddr="0x30000000" AlwaysPresent="0">
+      <LoaderInfo Name="MX25UW51245G" MaxSize="0x04000000"
+                  Loader="RT1176_MX25UW51245G.FLM" LoaderType="FLASH_ALGO_TYPE_OPEN" />
+    </FlashBankInfo>
+  </Device>
+</Database>
